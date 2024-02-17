@@ -10427,6 +10427,8 @@ self: super: with self; {
     inherit (pkgs) graphviz;
   };
 
+  pydove = callPackage ../development/python-modules/pydove { };
+
   pydrawise = callPackage ../development/python-modules/pydrawise { };
 
   pydrive2 = callPackage ../development/python-modules/pydrive2 { };

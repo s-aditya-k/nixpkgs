@@ -74,7 +74,7 @@ rustPlatform.buildRustPackage rec {
     homepage = "https://gitbutler.com/";
     maintainers = [ ];
     license = licenses.unfree;
-    platforms = [ platforms.linux platforms.darwin ];
+    platforms = [ "x86_64-linux" ];
     mainProgram = "git-butler-nightly";
   };
 }

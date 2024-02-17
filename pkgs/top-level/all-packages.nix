@@ -2494,6 +2494,8 @@ with pkgs;
 
   gitbatch = callPackage ../applications/version-management/gitbatch { };
 
+  gitbutler = callPackage ../applications/version-management/gitbutler { };
+
   gitflow = callPackage ../applications/version-management/gitflow { };
 
   gitfs = callPackage ../tools/filesystems/gitfs { };
